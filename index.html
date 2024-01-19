@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="https://kit.fontawesome.com/4c122497d3.js" crossorigin="anonymous"></script>
+</head>
+<body> 
+    <div id="header">
+       <div class="container">
+            <nav>
+               
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                 </ul> 
+                 <i class="fas fa-bars" onclick="openmenu()"></i>            
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Shreyas</span><br><span> Phutane</span></h1>
+            </div>
+        </div>
+    </div> 
+   <!--------------About--------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/Home Pose.JPG" alt="" height="500px" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <h2>INTRODUCTION TO MYSELF</h2>
+                    <P> My name is Shreyas Pramod Phutane. I'm from Patan Dist. Satara, Coming to my Educational qualifications; Currently, I'm pursuing a master's degree of computer applications in D.Y.Patil College of Agricultural and Technical University. I have done my bachelor's from S.G.M College, Karad Coming to my strengths: My strength is I am a quick learner, and hardworking. My weakness is overthinking. My technical skills are in C#,HTML,CSS,JS,ReactJS, AngularJS, NodeJS,MongoDB and MySQL. My long-term goal is to achieve a good position where I'm working. If you select me, I will give my best to your company and I would like to learn new ideas by day by day and grow my skills with your company. </P>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                        <p class="tab-links"onclick="opentab('certificates')">Certificates</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces.</li>
+                            <li><span>Web Development</span><br>Web App Development.</li>
+                            <li><span>App Developer</span><br>Building Windows apps.</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024-Current</span><br>Master of Computer Applications in D.Y.Patil College,Kolhapur.</li>
+                            <li><span>2023</span><br>Bachelor's of Computer Science from S.G.M. College Karad.</li>
+                            <li><span>2020</span><br>10+2 From B.D.C.Patan.</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="certificates">
+                        <ul>
+                            <li><span>Full Stack Certificate</span><br>Full Stack Web Developer Certificate on Udemy.</li>
+                            <li><span>Python Developer</span><br>0 to Master in Python Developer Certificate on Udemy.</li>
+                           
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+<!-------------- Services -------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Web Design</h2>
+                <p>
+                    "Transforming ideas into digital experiences. Our web design services blend creativity and functionality to craft visually engaging, user-friendly websites. Elevate your online presence with responsive and modern designs that captivate and convert."</p>
+                
+            </div>
+
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>UI/UX Design</h2>
+                <p>"Crafting seamless digital experiences with our UI/UX design expertise. We prioritize user-centric innovation to create interfaces that not only look stunning but also enhance usability. Elevate your product with designs that resonate, engage, and leave a lasting impression on your audience."</p>
+                
+            </div>
+
+            <div>
+                <i class="fa-brands fa-windows"></i>
+                <h2>Windows App Design</h2>
+                <p>"Revolutionize your software experience with our Windows App Design services. We specialize in creating sleek and intuitive interfaces that optimize functionality for seamless user interaction. Elevate your application's visual appeal and user experience with our expert design, tailored specifically for the Windows platform."</p>
+            </div>
+        </div>
+    </div>
+</div>
+ 
+<!----------------- Portfolio ------------------------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list"> 
+            <div class="work">
+                <img src="Images/delicious2.jpg">
+                <div class="layer">
+                    <h3>Delicious Restaurant Website</h3>
+                    <p>"Welcome to Delicious, where culinary artistry meets unparalleled flavors. Our restaurant is a gastronomic haven, offering a diverse menu inspired by global cuisines and crafted with locally sourced, fresh ingredients. Immerse yourself in a delightful dining experience where every dish is a masterpiece, created with passion and served with a touch of elegance. Explore our menu, savor the taste of excellence, and indulge in a feast for your senses. At Delicious, we redefine dining, turning each meal into a memorable celebration of taste and ambiance. Join us on a journey of culinary delight that promises to satisfy your cravings and elevate your dining experience."</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/Flipkart_5_vN1mygn.jpg" height="100%">
+                <div class="layer">
+                    <h3>Flikart Website</h3>
+                    <p>"Discover a world of endless possibilities at Flipkart, your ultimate online shopping destination. Immerse yourself in a seamless and user-friendly experience, where a vast array of products awaits your exploration. From the latest gadgets to trendy fashion, home essentials to lifestyle must-haves, Flipkart brings the marketplace to your fingertips. Enjoy hassle-free browsing, secure transactions, and swift doorstep delivery. Elevate your shopping journey with exclusive deals, personalized recommendations, and a customer-centric approach. At Flipkart, we redefine online shopping, making it not just a transaction but an enjoyable and convenient experience tailored just for you."</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/matrimonial2.webp" >
+                <div class="layer">
+                    <h3>Destiny Matrimonial Desktop App</h3>
+                    <p>"Welcome to Destiny Matrimonial App, where meaningful connections find their perfect match. Our desktop application is designed to simplify the journey of finding a life partner, offering a seamless and secure experience. Navigate through user-friendly interfaces, personalized profiles, and advanced matchmaking algorithms that prioritize compatibility. With Destiny, embark on a journey where every click brings you closer to your soulmate. Discover the ease of connecting with potential life partners, with privacy and authenticity at the forefront. Join Destiny Matrimonial App on your desktop, where the quest for love is transformed into a delightful and purposeful experience."</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------------Contact--------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>shreyasphutane17@gmail.com</p>
+                <p> <i class="fas fa-phone-square-alt"></i>+91 9420505398</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/x.shreyas17?igsh=am9veGZ5N2tyOGRs"><i class="fab fa-instagram"></i></a>
+                    <a href=https://www.linkedin.com/in/shreyas-phutane-97b840242?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app><i class="fab fa-linkedin"></i></a>
+                </div>
+<!-- --------Remaining Part---not showing button for download--------- -->
+                <a href="Images/resume.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type=" text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg">hello</span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i> Shreyas Phutane.</p>
+    </div>
+</div>
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents")
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");      }
+            for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");       }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+    var sidemenu =document.getElementById("sidemenu") ;
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwETQc-XNcaJ6UKuvJiZwppv3_A-mHUHuZCO9kWv_ZeGIKMNFhto0Wp7XqnNXmJqEeh0g/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent Successfully"
+            setTimeout(function(){
+               msg.innerHTML = "" 
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
