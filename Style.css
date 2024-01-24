@@ -97,7 +97,6 @@ body{
     display: flex;
     margin: 20px 0 40px;
 }
-
 .tab-links{
     margin-right: 50px;
     font-size: 18px;
@@ -105,7 +104,6 @@ body{
     cursor: pointer;
     position: relative;
 }
-
 .tab-links::after{
     content: '';
     width: 0;
@@ -250,10 +248,6 @@ btn:hover{
     background: #ff004f;
 }
 
-
-
-
-
 .contact-left{
     flex-basis: 35%;
 }
@@ -332,6 +326,9 @@ nav .fas{
     .header-text h1{
         font-size: 30px;
     }
+    .header-text h1 span{
+        color:white;
+    }
     nav .fas{
         display: block;
         font-size: 25px;
@@ -363,7 +360,6 @@ nav ul li {
     .header-text h1{
         color: #fff;
     }
-
     .sub-title{
         font-size: 40px;
     }
